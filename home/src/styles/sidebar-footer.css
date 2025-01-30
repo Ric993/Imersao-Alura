@@ -171,3 +171,44 @@ h1 {
     padding: 8px;
     border-radius: 20px;
 }
+
+.disclaimer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, rgb(255, 0, 255),rgb(8, 156, 255));
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer-premium__title{
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtilte{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.disclaimer-premium button{
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
